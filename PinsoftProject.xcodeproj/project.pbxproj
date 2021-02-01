@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2CD88125C6F0A8003587E3 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2CD88025C6F0A8003587E3 /* ActivityIndicator.swift */; };
+		5B64DFD925C41EF200EEB21B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64DFD825C41EF200EEB21B /* LaunchViewController.swift */; };
+		5B64DFDC25C41F0200EEB21B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64DFDB25C41F0200EEB21B /* DetailViewController.swift */; };
+		5BB8508825C36A9000A1AD82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BB8508725C36A9000A1AD82 /* GoogleService-Info.plist */; };
 		5BDECE4C25C2DD4B0064C2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECE4B25C2DD4B0064C2AE /* AppDelegate.swift */; };
 		5BDECE4E25C2DD4B0064C2AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECE4D25C2DD4B0064C2AE /* SceneDelegate.swift */; };
-		5BDECE5025C2DD4B0064C2AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECE4F25C2DD4B0064C2AE /* ViewController.swift */; };
 		5BDECE5325C2DD4B0064C2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDECE5125C2DD4B0064C2AE /* Main.storyboard */; };
 		5BDECE5525C2DD4C0064C2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDECE5425C2DD4C0064C2AE /* Assets.xcassets */; };
 		5BDECE5825C2DD4C0064C2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDECE5625C2DD4C0064C2AE /* LaunchScreen.storyboard */; };
+		5BDECE7225C2E14E0064C2AE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECE7125C2E14E0064C2AE /* NetworkMonitor.swift */; };
+		5BDECE7C25C2F7500064C2AE /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECE7A25C2F7500064C2AE /* FilmCell.swift */; };
+		5BDECE7D25C2F7500064C2AE /* FilmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDECE7B25C2F7500064C2AE /* FilmCell.xib */; };
+		5BDECEAF25C2FE0B0064C2AE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEAE25C2FE0B0064C2AE /* Constant.swift */; };
+		5BDECEB325C2FE280064C2AE /* FilmRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEB225C2FE280064C2AE /* FilmRequest.swift */; };
+		5BDECEB725C2FE4E0064C2AE /* FilmRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEB625C2FE4E0064C2AE /* FilmRatings.swift */; };
+		5BDECEBB25C300BC0064C2AE /* FilmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEBA25C300BC0064C2AE /* FilmService.swift */; };
+		5BDECEC225C302540064C2AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEC125C302540064C2AE /* MainViewController.swift */; };
+		5BDECEC625C329470064C2AE /* FilmSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEC525C329470064C2AE /* FilmSearch.swift */; };
+		5BDECEC925C329900064C2AE /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDECEC825C329900064C2AE /* SearchResult.swift */; };
+		5BFD4A2725C78161009F5A6D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFD4A2625C78161009F5A6D /* AdSupport.framework */; };
+		BF1DFA1893AAE941AA7321D6 /* Pods_PinsoftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D82F4AF97C8CF3289315C66 /* Pods_PinsoftProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B2CD88025C6F0A8003587E3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		5B64DFD825C41EF200EEB21B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		5B64DFDB25C41F0200EEB21B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5BB8508725C36A9000A1AD82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5BDECE4825C2DD4B0064C2AE /* PinsoftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinsoftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDECE4B25C2DD4B0064C2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BDECE4D25C2DD4B0064C2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BDECE4F25C2DD4B0064C2AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BDECE5225C2DD4B0064C2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BDECE5425C2DD4C0064C2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDECE5725C2DD4C0064C2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BDECE5925C2DD4C0064C2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDECE7125C2E14E0064C2AE /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		5BDECE7A25C2F7500064C2AE /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		5BDECE7B25C2F7500064C2AE /* FilmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmCell.xib; sourceTree = "<group>"; };
+		5BDECEAE25C2FE0B0064C2AE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5BDECEB225C2FE280064C2AE /* FilmRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRequest.swift; sourceTree = "<group>"; };
+		5BDECEB625C2FE4E0064C2AE /* FilmRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRatings.swift; sourceTree = "<group>"; };
+		5BDECEBA25C300BC0064C2AE /* FilmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmService.swift; sourceTree = "<group>"; };
+		5BDECEC125C302540064C2AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5BDECEC525C329470064C2AE /* FilmSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSearch.swift; sourceTree = "<group>"; };
+		5BDECEC825C329900064C2AE /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		5BFD4A2625C78161009F5A6D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		73249503B052061CC72907CB /* Pods-PinsoftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftProject.release.xcconfig"; path = "Target Support Files/Pods-PinsoftProject/Pods-PinsoftProject.release.xcconfig"; sourceTree = "<group>"; };
+		9D82F4AF97C8CF3289315C66 /* Pods_PinsoftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinsoftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68E9019ADE8EBB938F16A33 /* Pods-PinsoftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftProject.debug.xcconfig"; path = "Target Support Files/Pods-PinsoftProject/Pods-PinsoftProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFD4A2725C78161009F5A6D /* AdSupport.framework in Frameworks */,
+				BF1DFA1893AAE941AA7321D6 /* Pods_PinsoftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B2CD87F25C6F07B003587E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B2CD88025C6F0A8003587E3 /* ActivityIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5BDECE3F25C2DD4B0064C2AE = {
 			isa = PBXGroup;
 			children = (
 				5BDECE4A25C2DD4B0064C2AE /* PinsoftProject */,
 				5BDECE4925C2DD4B0064C2AE /* Products */,
+				7DB82E9E27B810C45CD7A461 /* Pods */,
+				7C4673B53081B50A4FDB8F1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,94 @@
 		5BDECE4A25C2DD4B0064C2AE /* PinsoftProject */ = {
 			isa = PBXGroup;
 			children = (
+				5B2CD87F25C6F07B003587E3 /* View */,
+				5BDECE7025C2E13A0064C2AE /* Network */,
+				5BDECE6825C2DE970064C2AE /* Controllers */,
+				5BDECE6725C2DE900064C2AE /* Cell */,
+				5BDECE6625C2DE8B0064C2AE /* API */,
 				5BDECE4B25C2DD4B0064C2AE /* AppDelegate.swift */,
 				5BDECE4D25C2DD4B0064C2AE /* SceneDelegate.swift */,
-				5BDECE4F25C2DD4B0064C2AE /* ViewController.swift */,
 				5BDECE5125C2DD4B0064C2AE /* Main.storyboard */,
-				5BDECE5425C2DD4C0064C2AE /* Assets.xcassets */,
 				5BDECE5625C2DD4C0064C2AE /* LaunchScreen.storyboard */,
+				5BDECE5425C2DD4C0064C2AE /* Assets.xcassets */,
 				5BDECE5925C2DD4C0064C2AE /* Info.plist */,
+				5BB8508725C36A9000A1AD82 /* GoogleService-Info.plist */,
 			);
 			path = PinsoftProject;
+			sourceTree = "<group>";
+		};
+		5BDECE6625C2DE8B0064C2AE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECEB925C300AD0064C2AE /* Service */,
+				5BDECEB125C2FE140064C2AE /* Models */,
+				5BDECEAE25C2FE0B0064C2AE /* Constant.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5BDECE6725C2DE900064C2AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECE7A25C2F7500064C2AE /* FilmCell.swift */,
+				5BDECE7B25C2F7500064C2AE /* FilmCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5BDECE6825C2DE970064C2AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECEC125C302540064C2AE /* MainViewController.swift */,
+				5B64DFD825C41EF200EEB21B /* LaunchViewController.swift */,
+				5B64DFDB25C41F0200EEB21B /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BDECE7025C2E13A0064C2AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECE7125C2E14E0064C2AE /* NetworkMonitor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BDECEB125C2FE140064C2AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECEB225C2FE280064C2AE /* FilmRequest.swift */,
+				5BDECEB625C2FE4E0064C2AE /* FilmRatings.swift */,
+				5BDECEC525C329470064C2AE /* FilmSearch.swift */,
+				5BDECEC825C329900064C2AE /* SearchResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BDECEB925C300AD0064C2AE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5BDECEBA25C300BC0064C2AE /* FilmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7C4673B53081B50A4FDB8F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFD4A2625C78161009F5A6D /* AdSupport.framework */,
+				9D82F4AF97C8CF3289315C66 /* Pods_PinsoftProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB82E9E27B810C45CD7A461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D68E9019ADE8EBB938F16A33 /* Pods-PinsoftProject.debug.xcconfig */,
+				73249503B052061CC72907CB /* Pods-PinsoftProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BDECE5C25C2DD4C0064C2AE /* Build configuration list for PBXNativeTarget "PinsoftProject" */;
 			buildPhases = (
+				7E56593585D2B5ACDB614FCD /* [CP] Check Pods Manifest.lock */,
 				5BDECE4425C2DD4B0064C2AE /* Sources */,
 				5BDECE4525C2DD4B0064C2AE /* Frameworks */,
 				5BDECE4625C2DD4B0064C2AE /* Resources */,
+				89ACA3B91E43184995B889FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BDECE5825C2DD4C0064C2AE /* LaunchScreen.storyboard in Resources */,
+				5BDECE7D25C2F7500064C2AE /* FilmCell.xib in Resources */,
+				5BB8508825C36A9000A1AD82 /* GoogleService-Info.plist in Resources */,
 				5BDECE5525C2DD4C0064C2AE /* Assets.xcassets in Resources */,
 				5BDECE5325C2DD4B0064C2AE /* Main.storyboard in Resources */,
 			);
@@ -132,14 +259,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E56593585D2B5ACDB614FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinsoftProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89ACA3B91E43184995B889FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftProject/Pods-PinsoftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftProject/Pods-PinsoftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinsoftProject/Pods-PinsoftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BDECE4425C2DD4B0064C2AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDECE5025C2DD4B0064C2AE /* ViewController.swift in Sources */,
+				5B64DFDC25C41F0200EEB21B /* DetailViewController.swift in Sources */,
+				5BDECEC925C329900064C2AE /* SearchResult.swift in Sources */,
+				5BDECE7225C2E14E0064C2AE /* NetworkMonitor.swift in Sources */,
 				5BDECE4C25C2DD4B0064C2AE /* AppDelegate.swift in Sources */,
+				5B2CD88125C6F0A8003587E3 /* ActivityIndicator.swift in Sources */,
 				5BDECE4E25C2DD4B0064C2AE /* SceneDelegate.swift in Sources */,
+				5BDECEC625C329470064C2AE /* FilmSearch.swift in Sources */,
+				5BDECEB325C2FE280064C2AE /* FilmRequest.swift in Sources */,
+				5BDECEB725C2FE4E0064C2AE /* FilmRatings.swift in Sources */,
+				5B64DFD925C41EF200EEB21B /* LaunchViewController.swift in Sources */,
+				5BDECE7C25C2F7500064C2AE /* FilmCell.swift in Sources */,
+				5BDECEBB25C300BC0064C2AE /* FilmService.swift in Sources */,
+				5BDECEAF25C2FE0B0064C2AE /* Constant.swift in Sources */,
+				5BDECEC225C302540064C2AE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +463,14 @@
 		};
 		5BDECE5D25C2DD4C0064C2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68E9019ADE8EBB938F16A33 /* Pods-PinsoftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR53Z6QYA3;
 				INFOPLIST_FILE = PinsoftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +484,14 @@
 		};
 		5BDECE5E25C2DD4C0064C2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73249503B052061CC72907CB /* Pods-PinsoftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HR53Z6QYA3;
 				INFOPLIST_FILE = PinsoftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

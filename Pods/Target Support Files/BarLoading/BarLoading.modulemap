@@ -1,0 +1,6 @@
+framework module BarLoading {
+  umbrella header "BarLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}
